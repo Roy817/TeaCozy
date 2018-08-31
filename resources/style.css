@@ -1,0 +1,179 @@
+
+/* I had some problems with de diffrent sizes of the screen. I took the sizes from the design specs so when you open the page on a bigger screen
+the right side is black and the page doesn't "grow" with the size of screen. If you have feedback on how to fix this that would be verry helpfull  */
+
+
+/* ALGEMEEN */
+a {
+  color: seashell;
+}
+
+h4 {
+  margin-top: 10px;
+}
+
+h3 {
+  margin: 0;
+}
+
+h2 {
+  margin-bottom: 15px;
+}
+
+html {
+  font-family: helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+
+.content {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: 70px;
+  width: 1200px;
+}
+
+.body {
+  position: absolute;
+  margin: 0;
+}
+
+/* HEADER */
+
+header {
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+  height: 69px;
+  width: 100%;
+  z-index: 5;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: 50px;
+  margin-left: 10px;
+  justify-content: flex-start;
+}
+
+.navigatie span {
+  display: inline-block;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 30px;
+}
+
+/* BODY */
+
+.homepage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 40px;
+  width: 1200px;
+  height: 700px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+.tekst-afbeelding {
+  width: 1200px;
+  text-align: center;
+  background-color: black;
+  z-index: 1
+}
+
+.midden-sectie {
+  display: flex;
+  flex-direction: column;
+  width: 1200px;
+  height: auto;
+  margin: 40px 40px 60px 40px;
+  text-align: center;
+  justify-content: center;
+}
+
+.titel-midden-sectie {
+  text-align: center;
+  justify-content: center;
+}
+
+.soorten-boxen {
+  width: 1000px;
+  height: auto;
+  align-self: center;
+}
+
+.box {
+  display: inline-block;
+  margin: 10px;
+  width: 300px;
+  height: 200px;
+}
+
+.blitz-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.rum-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.donuts img {
+  width: 300px;
+  height: 200px;
+}
+
+.ave-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.bizarre-tea img {
+  width: 300px;
+  height: 200px;
+}
+
+.beneden-sectie {
+  text-align: center;
+  width: 1200px;
+  height: 500px;
+  margin: 40px;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.adressen span {
+  display: flex;
+  width: 280px;
+  flex-direction: column;
+  padding: 20px;
+  background-color: black;
+}
+
+.adressen {
+  display: inline-block;
+  margin: 20px;
+}
+
+/* FOOTER */
+
+footer {
+  text-align: center;
+  height: 200px;
+  width: 1200px;
+  margin: 40px 40px 0 40px;
+}
+
+.copyright {
+  text-align: left;
+  margin-left: 0;  /* no margin because the of the margin of the <footer> */
+}
